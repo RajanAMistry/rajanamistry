@@ -12,43 +12,58 @@ body {
 }
 
 header {
-	background: #e5e5e5;	
+	background: #e5e5e5;
 }
 
 h1{
-	color: #23374d;
-	font-size: 5rem;
+	color: #23374d;	
 }
 
 .subtitle, article, i {
 	color: #5E5E5E;	
 }
 
-i {
-	font-size: 1rem;
-}
-
-.profile-image {
-	height: auto;
-    max-width: 12rem;
+.profile-image {	
+    min-width: 4rem;
+    height: auto;
 }
 
 .social-icon {
 	min-width: 2rem;
-	min-height: 2rem;
-	margin-right: 0.25rem;
+	min-height: 2rem;	
 } 
 
-.social-icon.linkedin{
-	background: url(../assets/linkedin.svg) no-repeat 0 0;	
+.social-icon.linkedin .linkedinimage{
+	width: 1.6rem;
+	height: auto;
 }
 
-.social-icon.email{
-	background: url(../assets/gmail.svg) no-repeat 0 0;	
+.social-icon.email .emailimage{
+	width: 2rem;
+	height: auto;
 }
 
-nav {
-	width: 12.5rem;
+.bg-dark-custom{
+	background: #23374d;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link {
+	font-weight: bold;
+	color: #e5e5e5;
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.nav-link.active {
+    color: white;
+    text-decoration: underline;
 }
 
 section {
