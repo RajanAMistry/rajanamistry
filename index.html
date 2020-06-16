@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Rajan Mistry</title>
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bars-1to10.css">
 	<link rel="stylesheet" type="text/css" href="./css/custom-styles.css">
 	<script type="text/javascript" src="./js/jQueryv3.5.1.min.js"></script>
 	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
@@ -24,10 +25,10 @@
 	<div class="collapse navbar-collapse ml-md-4 ml-lg-4" id="menuNavigation">
 		<ul class="navbar-nav"  role="tablist">
 			<li class="nav-item active">
-				<a class="nav-link active" onclick="toggleActive(this)"  href="#about">About</a>
+				<a class="nav-link active"  href="#about">About</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link"  href="#technologies" onclick="toggleActive(this)">Technologies</a>
+				<a class="nav-link"  href="#technologies">Technologies</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link"  href="#experience">Experience</a>
@@ -40,6 +41,14 @@
 			</li>
 		</ul>		
 		<ul class="navbar-nav ml-auto nav-flex-icons d-flex flex-row">
+			<li class="nav-item">
+					<a 
+						href="https://github.com/RajanAMistry" 
+						class="social-icon github mr-2" 
+						target="_blank"
+						title="GitHub">
+				<img class="githubimage" src="./assets/github.svg" alt="github"/></a>
+			</li>
 			<li class="nav-item">
 					<a 
 						href="https://www.linkedin.com/in/rajan-a-mistry/" 
@@ -82,8 +91,21 @@
 			</article>
 		</section>
 		<section class="p-3" id="technologies">
-			<h2>Technologies</h2>				
-			<i>HTML5, CSS, JavaScript, Angular 6+, Java 1.7, Sprint boot, PL/SQL, Git, Windows 10, Ubuntu, Apache Tomcat</i>			
+			<h2>Technologies</h2>							
+			<div class="row justify-content-around">
+				<div id="frontend" class="col-md-4 col-sm-10 frontend-container">
+					<h4>Frontend</h4>
+					<div id="frontendRating" class="rating-container frontend"></div>
+				</div>
+				<div id="backend" class="col-md-4 col-sm-10 backend-container">
+					<h4>Backend</h4>
+					<div id="backendRating" class="rating-container backend"></div>
+				</div>
+				<div id="tools" class="col-md-4 col-sm-10 tools-container">
+					<h4>Tools</h4>
+					<div id="toolsRating" class="rating-container tools"></div>
+				</div>
+			</div>
 		</section>
 		<section class="p-3" id="experience">
 			<h2>Experience</h2>
@@ -133,6 +155,7 @@
 		</section>
 	</div>
 </div>
+<script type="text/javascript" src="./js/jquery.barrating.min.js"></script>
 <script type="text/javascript" src="./js/scripts.js"></script>
 </body>
 </html>
