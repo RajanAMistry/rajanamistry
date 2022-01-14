@@ -23,8 +23,8 @@
 				"rating": 10
 			},
 			{
-				"name": "css",
-				"displayName": "CSS",
+				"name": "css3",
+				"displayName": "CSS3",
 				"rating": 8
 			},		
 			{
@@ -39,8 +39,13 @@
 			},
 			{
 				"name": "angular" ,
-				"displayName": "Angular 6+",
-				"rating": 6
+				"displayName": "Angular 10",
+				"rating": 8
+			},
+			{
+				"name": "vue3" ,
+				"displayName": "Vue 3",
+				"rating": 4
 			}
 			],
 			"backend": [
@@ -58,34 +63,16 @@
 				"name": "spring" ,
 				"displayName": "Spring boot",
 				"rating": 5
-			}
-			],
-			"tools":
-			[
-			{
-				"name": "git" ,
-				"displayName": "Git",
-				"rating": 10
 			},
 			{
-				"name": "windows" ,
-				"displayName": "Windows",
-				"rating": 10
+				"name": "nodejs" ,
+				"displayName": "NodeJS",
+				"rating": 4
 			},
 			{
-				"name": "linux" ,
-				"displayName": "Linux",
-				"rating": 7
-			},
-			{
-				"name": "tomcat" ,
-				"displayName": "Tomcat",
-				"rating": 6
-			},
-			{
-				"name": "apache" ,
-				"displayName": "Apache",
-				"rating": 6
+				"name": "mongodb" ,
+				"displayName": "Mongo DB",
+				"rating": 5
 			}
 			]
 		};
