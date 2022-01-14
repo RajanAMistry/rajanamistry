@@ -153,10 +153,6 @@
 		render backend rating
 		*/
 		renderRating('backendRating', ratingData['backend']);
-	/*
-		render tools rating
-		*/
-		renderRating('toolsRating', ratingData['tools']);
 	};
 
 /*
