@@ -38,6 +38,7 @@
 	} 
 
 	.social-icon.github .githubimage, 
+	.social-icon.gitlab .gitlabimage,
 	.social-icon.linkedin .linkedinimage{
 		width: 1.6rem;
 		height: auto;
